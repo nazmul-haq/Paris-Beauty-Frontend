@@ -1,0 +1,316 @@
+ ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ImageError: "url" parameter is valid but upstream response is invalid
+    at fetchExternalImage (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/image-optimizer.js:726:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async NextNodeServer.imageOptimizer (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:654:48)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/next-server.js:182:65)
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /home/parisbe1/public_html/landing-laxzin/node_modules/next/dist/lib/batcher.js:45:32 {
+  statusCode: 404
+}
+ ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product/fsfsfasffdsfas-868947.png 404
+ ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product/fsfsfasffdsfas-868947.png 404
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product/fsfsfasffdsfas-868947.png 404
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product/fsfsfasffdsfas-868947.png 404
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product/fsfsfasffdsfas-868947.png 404
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product/fsfsfasffdsfas-868947.png 404
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product/fsfsfasffdsfas-868947.png 404
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product/fsfsfasffdsfas-868947.png 404
+ ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product/fsfsfasffdsfas-868947.png 404
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product/fsfsfasffdsfas-868947.png 404
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product/fsfsfasffdsfas-868947.png 404
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product/fsfsfasffdsfas-868947.png 404
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product/fsfsfasffdsfas-868947.png 404
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product/fsfsfasffdsfas-868947.png 404
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product/fsfsfasffdsfas-868947.png 404
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product/fsfsfasffdsfas-868947.png 404
+ ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product/fsfsfasffdsfas-868947.png 404
+ ⨯ upstream image response failed for https://admin.parisbeautybd.com/storage/product-section/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%B8-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A5%A4-1741756686.jpg 404
