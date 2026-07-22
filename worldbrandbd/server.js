@@ -1,18 +1,16 @@
-const { createServer } = require("http");
-const next = require("next");
-const { parse } = require("url");
+process.env.NODE_ENV='production';
+const { createServer } = require('http');
+const next = require('next');
 
-const port = process.env.PORT || 3002;
-const dev = process.env.NODE_ENV !== "production";
-const app = next({ dev });
+const app = next({ dev:false, dir:__dirname });
 const handle = app.getRequestHandler();
+const port = process.env.PORT || 3000;
 
 app.prepare().then(() => {
-    createServer((req, res) => {
-        const parsedUrl = parse(req.url, true);
-        handle(req, res, parsedUrl);
-    }).listen(port, (err) => {
-        if (err) throw err;
-        console.log(`> Ready on http://localhost:${port}`);
-    });
+  createServer((req,res) => handle(req,res)).listen(port, '127.0.0.1', () => {
+    console.log('WorldBrand ready on port ' + port);
+  });
+}).catch((err) => {
+  console.error(err);
+  process.exit(1);
 });
